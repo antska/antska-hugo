@@ -1,0 +1,17 @@
+<!-- Card to display blogger's name, contact, etc -->
+<div class="profile mdl-cell--12-col">
+    <span class="avatar"><img src="{{ .Site.Params.avatar }}" alt=""/></span>
+
+    <div class="profile_info" style="text-align: center;">
+        <h1 class="profile_title">
+            Antonis Skandalis
+        </h1>
+        <p>Software Engineer | Developer | Programmer</p>
+    </div>
+
+    <ul class="icons">
+        {{ range .Site.Params.social }}
+        <li><a href="{{ .link }}" class="{{ .icon }}" target="_blank">{{ .title }}</a></li>
+        {{ end }}
+    </ul>
+</div>

@@ -1,0 +1,72 @@
+baseurl = "http://antska.com/"
+languageCode = "en-us"
+title = "Antonis Skandalis"
+
+theme = "HugoMDL"
+MetaDataFormat = "yaml"
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+
+[params]
+
+  author = "Antonis Skandalis"
+  avatar = "/images/avatar.jpg"
+  background = "/images/background.jpeg"
+  description = "A place to show my precious fortune" #meta description
+  image = "/images/avatar-192x210.png" #for frontpage profile card
+  mdlPrimary = "grey"
+  mdlSecondary = "orange"
+  website = "http://antska.com/"
+  email = "ant.skandalis@gmail.com"
+  twitter = "https://twitter.com/ant_skandalis"
+  github = "https://github.com/antska"
+  linkedin = "https://linkedin.com/in/antskandalis/"
+  facebook = "https://facebook.com/ant.skandalis/"
+  copyrightyear = "2016"
+  frontpageposts = 6 #number of post cards to display on frontpage
+
+  [[params.social]]
+      title = "Twitter"
+      icon = "fa-twitter"
+      link = "https://twitter.com/ant_skandalis"
+    [[params.social]]
+    	title = "Instagram"
+    	icon = "fa-instagram"
+    	link = "https://www.instagram.com/ant.skandalis"
+    [[params.social]]
+    	title = "Facebook"
+    	icon = "fa-facebook"
+    	link = "https://www.facebook.com/ant.skandalis"
+    [[params.social]]
+        title = "LinkedIn"
+        icon = "fa-linkedin"
+        link = "https://linkedin.com/in/antskandalis"
+    [[params.social]]
+    	title = "Github"
+    	icon = "fa-github"
+    	link = "https://github.com/antska"
+    [[params.social]]
+    	title = "Email"
+    	icon = "fa-envelope-o"
+    	link = "mailto:ant.skandalis@gmail.com"
+
+# Fully customizable header menu
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Articles"
+  url = "/post/"
+  weight = -180
+[[menu.main]]
+  name = "Projects"
+  url = "/project/"
+  weight = -160
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = "-140"
+
