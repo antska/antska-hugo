@@ -14,7 +14,7 @@ blurb: "Software Engineer | Data Science Programmer"
 recentposts: 5
 recentprojects: 5
 photo: "/images/avatar.png"
-cardheaderimage: "/images/about_card_header.jpeg" #optional: default solid color if unset
+#cardheaderimage: "/images/about_card_header.jpeg" #optional: default solid color if unset
 cardbackground: "#263238" #optional: card background color; only shows when no image specified
 ---
 ----

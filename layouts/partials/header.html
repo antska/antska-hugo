@@ -45,7 +45,7 @@
 </head>
 
 <body style="background-image: url('{{ .Site.Params.background }}');">
-    {{ if .IsPage }} 
+    {{ if .IsPage }}
         {{ if (or ( eq .Type "post" ) ( eq .Type "project") ( eq .Type "about")) }} 
             <div class="hugo-blog hugo-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">  
         {{ else }}
