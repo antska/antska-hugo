@@ -1,16 +1,31 @@
-        </main>
-        <footer class="mdl-mini-footer">
-            <div class="mdl-mini-footer--left-section">
-                {{ partial "socialbtns.html" . }}
-            </div>
-            <div class="mdl-mini-footer--right-section">
-                <span>© {{ .Site.Params.copyrightyear }} {{ .Site.Params.author }}</span>
-            </div>
-        </footer>
-        <div class="mdl-layout__obfuscator"></div>
+</main>
+<footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer--left-section">
+        {{ partial "socialbtns.html" . }}
     </div>
-    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-    {{ if .IsPage }} {{ if ( eq .Type "post" ) }}<script src="/js/prism.js"></script>{{ end }}{{ end }}
-    {{ if .IsNode }} {{ partial "JS-cardmedia.html" . }} {{ partial "JS-fabbutton.html" . }}{{end}}
+    <div class="mdl-mini-footer--right-section">
+        <span>© {{ .Site.Params.copyrightyear }} {{ .Site.Params.author }}</span>
+    </div>
+</footer>
+<div class="mdl-layout__obfuscator"></div>
+</div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-87594841-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 </body>
 </html>
