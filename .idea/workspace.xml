@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5cd6e86-23b4-4bd2-9cd6-2f8ac9f1e272" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="antska-hugo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -297,7 +297,7 @@
       <workItem from="1479347246941" duration="1799000" />
       <workItem from="1479862251926" duration="118000" />
       <workItem from="1479862367659" duration="130000" />
-      <workItem from="1479862498423" duration="69000" />
+      <workItem from="1479862498423" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="First version of the website">
       <created>1479348269302</created>
@@ -310,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25820000" />
+    <option name="totallyTimeSpent" value="25929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
